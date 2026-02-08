@@ -18,7 +18,7 @@ Caution: This is a prerelease.
 This repository contains code to:
 * run and train a simple huggingface token classifier based PoS tagger
 * train and run a lemmatizer combining:
-  * the INT historical lexicon
+  * the INT [GiGaNT Hilex lexicon](https://ivdnt.org/corpora-lexica/gigant/)
   * for out of vocabulary tokens, a ByT5 model (https://huggingface.co/docs/transformers/model_doc/byt5)
 
 To use:
