@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: int-huggingface-tagger
+Version: 0.1.0
+Summary: tagger and lemmatizer for historical Dutch
+Home-page: https://github.com/INL/int-huggingface-tagger
+Author: Instituut voor de Nderlandse Taal
+Author-email: servicedesk@ivdnt.org
+Requires-Dist: transformers
+Requires-Dist: transformers[torch]
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: adjustText
+Requires-Dist: wheel
+Requires-Dist: seaborn
+Requires-Dist: sentencepiece
+Requires-Dist: fugashi[unidic]
+Requires-Dist: ipadic
+Requires-Dist: jsons
+Requires-Dist: bottle
+Requires-Dist: nlpaug
+Requires-Dist: datasets
+Requires-Dist: lxml
+Requires-Dist: nltk
+Requires-Dist: pandas
+Requires-Dist: psycopg2-binary
+Requires-Dist: tabulate
+Requires-Dist: evaluate
+Requires-Dist: gitpython
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
